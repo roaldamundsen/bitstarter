@@ -8,7 +8,7 @@ var fs = require('fs');
 
 app.get('/', function(request, response) {
 //  response.send(buf.toString('utf8', 0, len));
-  response.send(buf.toString('utf8'));
+  response.send(buf.toString());
 });
 
 var port = process.env.PORT || 5000;
